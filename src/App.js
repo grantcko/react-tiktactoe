@@ -74,7 +74,7 @@ export default function Game() {
     }
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{description}</button>
+        <button  className="btn-moves py-0 px-2" onClick={() => jumpTo(move)}>{description}</button>
       </li>
     );
   });
@@ -85,7 +85,7 @@ export default function Game() {
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
-        <ol>{moves}}</ol>
+        <ol>{moves}</ol>
       </div>
     </div>
   );

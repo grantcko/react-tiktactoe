@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: #373737;
 }
 
 h1 {
@@ -83,8 +85,35 @@ body {
 .game {
   display: flex;
   flex-direction: row;
+  transform: translate(-50%,-50%)!important;
+  position: absolute;
+  left: 50%!important;
+  top: 50%!important;
+  background-color: #EE6055;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.game-board {
+
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.btn-moves {
+  border-radius: 4px;
+  border-style: none;
+  background-color: #D7F75B;
+  color: #373737;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.354);
+  margin-bottom: 2px;
+  min-width: 100%;
+}
+
+.status {
+  color: #D7F75B;
+  font-family: monospace;
+  text-shadow: #373737 -1px 1px 2px;
 }
