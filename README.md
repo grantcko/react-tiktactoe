@@ -9,13 +9,13 @@ To install and run the project locally, follow these steps:
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/project-name.git
+    git clone git@github.com:grantcko/react-tiktactoe.git
     ```
 
 2. Change to the project directory:
 
     ```
-    cd project-name
+    cd react-tiktactoe
     ```
 
 3. Install dependencies:
